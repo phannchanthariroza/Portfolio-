@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phann Chanthariroza | Home</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="logo">PORTFOLIO.</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="education.html">Education</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><button class="lang-btn" onclick="translateJapanese()">日本語</button></li>
+      <li><button class="lang-btn" onclick="toggleDarkMode()">🌙</button></li>
+    </ul>
+  </nav>
+
+  <!-- HOME CONTENT -->
+  <section id="home">
+    <img src="images/profile.png" alt="Profile Picture">
+    <h1>Phann Chanthariroza</h1>
+    <p>Software Development Student | Cambodia</p>
+    <a href="contact.html" class="btn">Contact Me</a>
+  </section>
+
+  <footer>
+    <p>© 2026 Phann Chanthariroza | Software Development Student | AUPP</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
