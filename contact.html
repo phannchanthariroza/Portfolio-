@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Phann Chanthariroza</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav>
+    <div class="logo">PORTFOLIO.</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="education.html">Education</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><button class="lang-btn" onclick="translateJapanese()">日本語</button></li>
+      <li><button class="lang-btn" onclick="toggleDarkMode()">🌙</button></li>
+    </ul>
+  </nav>
+
+  <section id="contact">
+    <h2 class="section-title">Contact Me</h2>
+    <form class="contact-form">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" placeholder="Your Name" required>
+      <label for="email">Email Address</label>
+      <input type="email" id="email" placeholder="your.email@example.com" required>
+      <label for="message">Message</label>
+      <textarea id="message" placeholder="Tell me about your inquiry..." required></textarea>
+      <button type="submit" class="btn-send">Send Message ✉️</button>
+    </form>
+
+    <div class="contact-links">
+      <a href="https://github.com/YourGitHubUsername" target="_blank"><img src="images/github.png" alt="GitHub" class="icon"></a>
+      <a href="https://linkedin.com/in/YourLinkedIn" target="_blank"><img src="images/linkedin.png" alt="LinkedIn" class="icon"></a>
+      <a href="mailto:phannchanthariroza301105@gmail.com"><img src="images/email.png" alt="Email" class="icon"></a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Phann Chanthariroza | Software Development Student | AUPP</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
